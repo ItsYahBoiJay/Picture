@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Styled Web Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Your Fancy Font', cursive;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background: url('Bg.jpg') no-repeat left top fixed;
+            background-size: cover;
+            color: white;
+            overflow: hidden; 
+        }
+
+        .content {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            max-width: 600px;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 20px;
+            z-index: 1; 
+        }
+
+        h1 {
+            color: white;
+        }
+
+        img {
+            border-radius: 50%; 
+            width: 150px;
+            height: 150px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 0; 
+
+        .section {
+            margin-top: 30px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .youtube-section {
+            margin-top: 30px;
+        }
+
+        .youtube-link {
+            color: #3498db;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="Me Bg.jpg" alt="Jayvee Rejesus">
+
+    <div class="content">
+        <header>
+            <h1>Jayvee Rejesus</h1>
+        </header>
+
+        <section class="section">
+            <p>Hi, I'm Jayvee Rejesus. I like to play PC games and enjoy my college life doing various activities. I also like to edit my clips in gaming. I have a YouTube channel; you can find it under my portfolio.</p>
+            <p>Age: 20</p>
+        </section>
+
+        <section class="section">
+            <h2>Hobbies</h2>
+            <p>Playing Valorant, RDR2, CS2, GTA5 (RP).</p>
+        </section>
+
+        <section class="section">
+            <h2>Interests</h2>
+            <p>Building PCs, Music, Gaming, Vaping, JDM Cars.</p>
+        </section>
+
+        <section class="youtube-section">
+            <h2>YouTube Channel</h2>
+            <p>You can check out my YouTube channel <a class="youtube-link" href="https://www.youtube.com/channel/UCY8h1Dm7wrwK1KcPDjaPtYg" target="_blank">here</a>.</p>
+        </section>
+
+    </div>
+
+</body>
+</html>
